@@ -1,0 +1,108 @@
+# Site
+# repository: sproogen/resume-theme
+# favicon: images/favicon.ico
+
+# Content configuration version
+version: 3
+
+# Personal info
+name: Shobhit Nautiyal
+title: Senior Devops Engineer
+email: nautiyal.shobhit@gmail.com
+website: nauts.me
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+github_username:  nauts
+# stackoverflow_username: "00000001"
+# dribbble_username: 
+# facebook_username: 
+# flickr_username: 
+# instagram_username:
+linkedin_username: shobhitnautiyal
+# xing_username: 
+# pinterest_username: 
+# youtube_username: 
+# googleplus_username: 
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: 
+#   icon: 
+#   url: 
+
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+# about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Shobhit and I'm a Senior Devops/Platform Engineer. 
+  I've 12+ years of experience in Techops / Devops/ SRE, application development, Data Engineering and Automation Testing. Have experience working with the leaders in their domain - Social networking (Linkedin), Airlines (Qantas), BPM (Pegasystems), E-commerce (Bigcommerce), Telecommunication (Optus), Health Service (HealthDirect Australia) and Real Estate (Ljhooker).
+  I am most skilled in: AWS services, Terraform/Cloudformation, CI/CD, Microservices, Kubernetes, Serverless, Typescript, Python.
+
+content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Optus
+        link: optus.com
+        # link_text: boringcompany.com
+        sub_title: Senior Devops Engineer
+        caption: November 2017 - Present
+        quote: >
+          Improving Developer's Experience by implementing command line tools for their develop, test and release experience.
+        description: | # this will include new lines to allow paragraphs
+            - Reviewed existing infrastructure and services deployed on Openshift and provided detailed report with recommendation to improve which helped in improving devops roadmap.
+            - Migrated micro services from polyrepo to monorepo for better management of growing number of projects.
+            - Implemented cdk8s framework for defining Kubernetes applications and reusable abstractions using typescript.
+            - Implemented command line Interface (CLI) tools to improve the developer experience.
+            - Used TDD approach to implement cdk8s framework, command line tools, code migrator tooling etc.
+            - Built micro services and dependent infrastructure (eg. kafka, redis, postgres) locally to test integration tests on minikube to improve the developer local testing experience.
+            - Improving Git workflow and ephemeral test environment for testing feature branches.
+            - Setting up static and dynamic ephemeral test environments on openshift.
+            - Configured Dynatrace dashboard for application metrics using APIs and also configured alerts on key metrics for various projects.
+            - Migrating the k8s deployments scripting from Kustomize to cdk8s way of generating the manifests.
+            - Migrating pipelines from Bamboo to Gitlab.
+
+#   - title: Education # Title for the section
+#     layout: list # Type of content section (list/text)
+#     content:
+#       - layout: left
+#         title: 
+#         caption: 
+#         sub_title: BTech
+#         quote: >
+#         description: | # this will include new lines to allow paragraphs
+
+
+#   - title: A Little More About Me
+#     layout: text
+#     content: | # this will include new lines to allow paragraphs
+#       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+#       - Meditation
+#       - Home Automation
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
