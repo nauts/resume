@@ -50,6 +50,16 @@ about_content: | # this will include new lines to allow paragraphs
   I've 12+ years of experience in Techops / Devops/ SRE, application development, Data Engineering and Automation Testing. Have experience working with the leaders in their domain - Social networking (Linkedin), Airlines (Qantas), BPM (Pegasystems), E-commerce (Bigcommerce), Telecommunication (Optus), Health Service (HealthDirect Australia) and Real Estate (Ljhooker).
   I am most skilled in: AWS services, Terraform/Cloudformation, CI/CD, Microservices, Kubernetes, Serverless, Typescript, Python.
 
+  During my job experience, I've:
+  - Automated 95% of infrastructure (AWS, Github, Datadog) using code - Route53, Cloud Front, WAF, Api Gateway, Custom Domain Name, Transit Gateway, VPC, EC2, Lambda, S3, ECR, EKS, Cloudwatch, IAM,
+RDS, Aurora serverless, Dynamodb, SQS, SNS, ElasticSearch, Appstream and more, using terraform and Cloudformation.
+  - Built dynamically generated CI/CD pipelines for api platform, UI clients, data pipelines.
+  - Worked on various Ops tools - AWS services, Kubernetes (cdk8s), Docker , Terraform/Terragrunt/Cdktf, Cloudformation, Datadog, New relic, Appdynamics, Ansible, Akamai, Rancher, Skeddly, Bintray, Jenkins, Buildkite, Codepipeline, Hashicorp Vault and more.
+  - Improved Developer's Experience by implementing command line tools for their develop, test and release experience.
+  - Worked on Event Driven and RestFul API based micro services architecture.
+  - Built infrastructure, services, pipelines for real-time data processing projects.
+  - Hands-on experience on various programming languages - Typescript, Python, Golang, Ruby, C, C++, C#, Java, JS, Php, Shell, SQL.
+  - Built test automation frameworks on Eggplant, Selenium/Webdriver, Telerik Test Studio, Webdriver.io and applied BDD and TDD approaches.
 content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -59,7 +69,7 @@ content:
         link: optus.com
         # link_text: boringcompany.com
         sub_title: Senior Devops Engineer
-        caption: November 2017 - Present
+        caption: Jun 2021 - Present
         quote: >
           Improving Developer's Experience by implementing command line tools for their develop, test and release experience.
         description: | # this will include new lines to allow paragraphs
@@ -74,7 +84,16 @@ content:
             - Configured Dynatrace dashboard for application metrics using APIs and also configured alerts on key metrics for various projects.
             - Migrating the k8s deployments scripting from Kustomize to cdk8s way of generating the manifests.
             - Migrating pipelines from Bamboo to Gitlab.
-
+      - layout: left
+        title: Optus
+        link: optus.com
+        # link_text: boringcompany.com
+        sub_title: Senior Devops Engineer
+        caption: Jun 2021 - Present
+        quote: >
+          Improving Developer's Experience by implementing command line tools for their develop, test and release experience.
+        description: | # this will include new lines to allow paragraphs
+            - Review
 #   - title: Education # Title for the section
 #     layout: list # Type of content section (list/text)
 #     content:
