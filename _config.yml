@@ -51,15 +51,14 @@ about_content: | # this will include new lines to allow paragraphs
   I am most skilled in: AWS services, Terraform/Cloudformation, CI/CD, Microservices, Kubernetes, Serverless, Typescript, Python.
 
   During my job experience, I've
-     Automated 95% of infrastructure (AWS, Github, Datadog) using code - Route53, Cloud Front, WAF, Api Gateway, Custom Domain Name, Transit Gateway, VPC, EC2, Lambda, S3, ECR, EKS, Cloudwatch, IAM,
-RDS, Aurora serverless, Dynamodb, SQS, SNS, ElasticSearch, Appstream and more, using terraform and Cloudformation.
-     Built dynamically generated CI/CD pipelines for api platform, UI clients, data pipelines.
-     Worked on various Ops tools - AWS services, Kubernetes (cdk8s), Docker , Terraform/Terragrunt/Cdktf, Cloudformation, Datadog, New relic, Appdynamics, Ansible, Akamai, Rancher, Skeddly, Bintray, Jenkins, Buildkite, Codepipeline, Hashicorp Vault and more.
-     Improved Developer's Experience by implementing command line tools for their develop, test and release experience.
-     Worked on Event Driven and RestFul API based micro services architecture.
-     Built infrastructure, services, pipelines for real-time data processing projects.
-     Hands-on experience on various programming languages - Typescript, Python, Golang, Ruby, C, C++, C#, Java, JS, Php, Shell, SQL.
-     Built test automation frameworks on Eggplant, Selenium/Webdriver, Telerik Test Studio, Webdriver.io and applied BDD and TDD approaches.
+  Automated 95% of infrastructure (AWS, Github, Datadog) using code - Route53, Cloud Front, WAF, Api Gateway, Custom Domain Name, Transit Gateway, VPC, EC2, Lambda, S3, ECR, EKS, Cloudwatch, IAM, RDS, Aurora serverless, Dynamodb, SQS, SNS, ElasticSearch, Appstream and more, using terraform and Cloudformation.
+  Built dynamically generated CI/CD pipelines for api platform, UI clients, data pipelines.
+  Worked on various Ops tools - AWS services, Kubernetes (cdk8s), Docker , Terraform/Terragrunt/Cdktf, Cloudformation, Datadog, New relic, Appdynamics, Ansible, Akamai, Rancher, Skeddly, Bintray, Jenkins, Buildkite, Codepipeline, Hashicorp Vault and more.
+  Improved Developer's Experience by implementing command line tools for their develop, test and release experience.
+  Worked on Event Driven and RestFul API based micro services architecture.
+  Built infrastructure, services, pipelines for real-time data processing projects.
+  Hands-on experience on various programming languages - Typescript, Python, Golang, Ruby, C, C++, C#, Java, JS, Php, Shell, SQL.
+  Built test automation frameworks on Eggplant, Selenium/Webdriver, Telerik Test Studio, Webdriver.io and applied BDD and TDD approaches.
 content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
